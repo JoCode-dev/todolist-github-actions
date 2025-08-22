@@ -26,5 +26,8 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Run app
+        run: bun run dev
+
       - name: Launch test
         run: bun test
